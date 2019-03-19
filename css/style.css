@@ -1,0 +1,65 @@
+
+.truth-dare{
+  visibility: hidden;
+}
+.truth-dare-visible{
+  visibility: visible;
+}
+.align-data{
+
+  text-align: center;
+  color: #069C6E;
+  padding: 0% 15%;
+}
+
+h1, h2, h3{
+  font-family: Montserrat-Black;
+}
+h1{
+  color: white;
+}
+.fa-color, .icon-color{
+  color: #069C6E;
+  padding-bottom: 2%;
+}
+.button-padding{
+  margin: 2% 0;
+  padding: 2% 10%;
+  background-color: black;
+}
+.padding-card{
+  padding-bottom: 10%;
+}
+.categories-align{
+  text-align: left;
+  padding-left: 30%;
+}
+.output-result{
+margin: 0;
+  color: #069C6E;
+  padding: 0 0;
+}
+
+.output-truth{
+  color: black;
+  background-color: white;
+}
+img{
+  width: 30%;
+}
+body{
+  height: 100vh;
+  background-color: #069C6E;
+
+}
+body{
+}
+
+.btn-primary{
+border-color: #069C6E;
+}
+.btn-primary:hover{
+  background-color: white !important;
+  border-color: black  !important;
+color: #069C6E;
+}

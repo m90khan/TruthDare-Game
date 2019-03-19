@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Love Game</title>
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada|Ubuntu" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="row align-data container-fluid">
+      <div class="col-lg-12">
+        <h1>Game<br>Truth or Dare</h1>
+        <button type="button" onclick="game();" id="playme" class="btn-block btn-dark btn-lg button-padding">Play Me</button>
+        <h3 id="tied" class="output-result"></h3>
+          <h3 id="outputtruth" class="output-truth"></h3>
+<div id="truther" class="truth-dare">
+  <button type="button" onclick="truthQuestion();" class="btn btn-primary btn-lg button-padding">Truth</button>
+  <button type="button" onclick="dareQuestion();" class="btn btn-primary btn-lg button-padding">Dare</button>
+
+
+</div>
+
+        </div>
+      </div>
+<div class="row container-fluid align-data">
+  <div class="card col-lg-6 ">
+      <div class="card-header">
+          <i class="fas fa-male fa-4x fa-color"></i>
+  <h2>Player 1</h2>
+      </div>
+      <div class="card-body">
+        <h3 id="player-one" class="output1"></h3>
+        <img class="image1" src="images/dice6.png">
+
+      </div>
+    </div>
+
+  <div class="card col-lg-6">
+      <div class="card-header">
+          <i class="fas fa-female fa-4x fa-color"></i>
+  <h2>Player 2</h2>
+      </div>
+      <div class="card-body">
+        <h3 id="player-two" class="output1"></h3>
+        <img class="image2" src="images/dice6.png">
+      </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
