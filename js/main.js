@@ -1,4 +1,39 @@
-
+  //                                               // Truth
+   var diceArray3 = [
+     "What is the most childish thing you still do?",
+     "What is something that people think you would never do but you have?",
+     "Tell me about your most awkward date.",
+     "What is your deepest darkest fear?",
+     "What is the most embarrassing thing in your room?",
+     "What is the stupidest thing you have ever done?",
+     "When was the last time you picked your nose without a tissue?",
+     "Tell me something you don’t want me to know.",
+     "What would you do if you were the opposite gender for a day?",
+     "Do you like me?",
+     "What is something you think you will regret in the future not starting now and what is something you already regret not starting sooner?",
+     "What part of your culture are you most and least proud of?",
+     "What is your deepest darkest fear?",
+     "What memory do you just keep going back to?",
+     "Where is the dream place you wish to visit?",
+     ];
+  var diceArray4 = [
+     "For a guy, put on makeup. For a girl, wash off your make up.",
+     "Dance with no music for 1 minute.",
+     "Lick your Partner neck.",
+     "LoveBite on the neck.",
+     "Let someone shave part of your body.",
+     "For next 5 minutes: Everytime you speak, you have to add (Master) before every sentence.",
+     "Attempt to break dance for 30 seconds.",
+     "Be someone’s pet for the next 5 minutes.",
+     "Poll dance for 1 minute with an imaginary pole.",
+     "Your Partner have to give you a spanking.",
+     "Make a funny face and keep making it for 2 minutes while the game continues.",
+     "Do your best impression of a baby being born.",
+     "Belly dance like your life depended on it.",
+     "Take off your underwear and put it on your head. Wear it on your head for next 5 minutes",
+     "Remove whatever you wearing as a Top",
+     "If you are at his/her place, wear his/her clothes",
+     ];
 function game(){
   // to generate random numbers from 1-6. mathflorr to round up the number to 6 and 1 to start from number 1 instead 0
   var d1 = Math.floor(Math.random() * 6) +1;
@@ -43,24 +78,7 @@ document.querySelector("#tied").classList.add("truth-dare");
 
 }
   //                                             // Dare
-   var diceArray4 = [
-     "For a guy, put on makeup. For a girl, wash off your make up.",
-     "Dance with no music for 1 minute.",
-     "Lick your Partner neck.",
-     "LoveBite on the neck.",
-     "Let someone shave part of your body.",
-     "For next 5 minutes: Everytime you speak, you have to add (Master) before every sentence.",
-     "Attempt to break dance for 30 seconds.",
-     "Be someone’s pet for the next 5 minutes.",
-     "Poll dance for 1 minute with an imaginary pole.",
-     "Your Partner have to give you a spanking.",
-     "Make a funny face and keep making it for 2 minutes while the game continues.",
-     "Do your best impression of a baby being born.",
-     "Belly dance like your life depended on it.",
-     "Take off your underwear and put it on your head. Wear it on your head for next 5 minutes",
-     "Remove whatever you wearing as a Top",
-     "If you are at his/her place, wear his/her clothes",
-     ];
+ 
 function dareQuestion(){
      var d4 = Math.random();
     d4 = d4 * diceArray4.length;
@@ -73,25 +91,8 @@ function dareQuestion(){
       document.querySelector("#outputtruth").classList.toggle("truth-dare");
     }
 }
-   //                                               // Truth
-   var diceArray3 = [
-     "What is the most childish thing you still do?",
-     "What is something that people think you would never do but you have?",
-     "Tell me about your most awkward date.",
-     "What is your deepest darkest fear?",
-     "What is the most embarrassing thing in your room?",
-     "What is the stupidest thing you have ever done?",
-     "When was the last time you picked your nose without a tissue?",
-     "Tell me something you don’t want me to know.",
-     "What would you do if you were the opposite gender for a day?",
-     "Do you like me?",
-     "What is something you think you will regret in the future not starting now and what is something you already regret not starting sooner?",
-     "What part of your culture are you most and least proud of?",
-     "What is your deepest darkest fear?",
-     "What memory do you just keep going back to?",
-     "Where is the dream place you wish to visit?",
-     ];
-//
+ 
+// Truth
 function truthQuestion(){
      var d3 = Math.random();
     d3 = d3 * diceArray3.length;
