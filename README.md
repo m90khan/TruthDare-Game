@@ -1,2 +1,2 @@
 # TruthDare-Game
-<img src="/images/overview.png">
+<img src="overview.png">
